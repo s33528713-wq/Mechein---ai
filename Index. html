@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Plasmax AI - Troubleshooting Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Plasmax AI Assistant</h1>
+        <p>ইন্ডাস্ট্রিয়াল মেশিন ট্রাবলশুটিং হেল্পার</p>
+        
+        <div class="menu-grid">
+            <a href="ai.html" class="card">📸 AI Vision Scan</a>
+            <a href="plasmax.html" class="card">⚙️ Plasmax Faults</a>
+            <a href="manual.html" class="card">📘 Machine Manual</a>
+        </div>
+    </div>
+</body>
+</html>
