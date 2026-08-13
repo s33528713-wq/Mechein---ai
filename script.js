@@ -8,7 +8,8 @@ async function askGemini() {
     
     try {
         // আপনার API Key এখানে বসান (AIza দিয়ে শুরু হবে)
-        const API_KEY = "আপনার-AIza-দিয়ে-শুরু-হওয়া-কী-টি-এখানে-বসান";
+        const API_KEY = "AQ.Ab8RN6L2OWn3ZhOQOx5Uq4DJ-Ud8Jh20wnXU92Zx1Fu3u65iuw" 
+ ";
         const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`, {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
