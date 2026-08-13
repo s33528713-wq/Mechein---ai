@@ -1,31 +1,14 @@
-
 <!DOCTYPE html>
-<html lang="bn">
+<html>
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plasmax AI - Troubleshooting Assistant</title>
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px; text-align: center; }
-        .container { max-width: 500px; margin: 0 auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        h1 { color: #111; font-size: 24px; margin-bottom: 5px; }
-        p { color: #666; margin-bottom: 25px; }
-        .menu-grid { display: flex; flex-direction: column; gap: 15px; }
-        .card { display: block; padding: 16px; background: #007bff; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; transition: 0.2s; }
-        .card:active { background: #0056b3; }
-    </style>
+    <title>Plasmax AI</title>
 </head>
-<body>
-    <div class="container">
-        <h1>Plasmax AI Assistant</h1>
-        <p>ইন্ডাস্ট্রিয়াল মেশিন ট্রাবলশুটিং হেল্পার</p>
-        
-        <div class="menu-grid">
-            <a href="https://gemini.google.com" target="_blank" class="card">📸 AI Vision Scan</a>
-            <a href="https://drive.google.com" target="_blank" class="card">⚙️ Plasmax Faults</a>
-            <a href="https://drive.google.com/file/d/1pXoISPGg_c0bmjLqNW7mep_l9XsLdkjc/view?usp=drivesdk" target="_blank" class="card">📘 Machine Manual</a>
-
-        </div>
-    </div>
+<body style="padding:20px; text-align:center;">
+    <h2>Plasmax AI v2.0</h2>
+    <input type="text" id="userInput" placeholder="Ask anything..." style="width:90%; padding:10px;">
+    <button onclick="askGemini()" style="margin-top:10px; padding:10px 20px;">Ask AI</button>
+    <div id="output" style="margin-top:20px; padding:10px; border:1px solid #ccc;">Result here...</div>
+    <script src="script.js"></script>
 </body>
 </html>
